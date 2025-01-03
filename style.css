@@ -93,4 +93,7 @@ body {
     .imgO {
         width: 50px;
     }
+    .table td {
+        min-width: 100px;
+    }
 }
