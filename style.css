@@ -1,0 +1,94 @@
+body {
+    background-color: #faf3e0;
+    font-family: sans-serif;
+}
+
+#title {
+    text-align: center;
+}
+
+.btn-wrapp {
+    text-align: center;
+}
+
+.btn {
+    background: #000000;
+    background-color: #ffffff;
+    margin-top: 10px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #d9d9d9;
+}
+
+.table {
+    margin: 0 auto;
+}
+
+.table td {
+    width: 125px;
+    height: 150px;
+    border: 4px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+.table td:hover {
+    background: #ffffffbd;
+}
+
+
+
+.stat {
+    width: 100%;
+    max-width: 250px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: start;
+    background-color: #f9f9f9;
+    border: 4px solid #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stat th {
+    background-color: #f5e5b7;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.stat td {
+    padding: 10px;
+    font-size: 1em;
+    color: #333;
+    border-bottom: 1px solid #000000;
+}
+
+
+.stat td img {
+    vertical-align: middle;
+}
+
+.stat td span {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #555;
+}
+
+.stat #statX,
+.stat #statO,
+.stat #statD {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+@media screen and (max-width: 556px) {
+    .imgX {
+        width: 50px;
+    }
+    .imgO {
+        width: 50px;
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="icon" type="image/png" href="image/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title"></h1>
+
+    <table class="table">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <div class="btn-wrapp">
+        <button class="btn" onclick="startCame()">Нова гра</button>
+    </div>
+
+    <table class="stat">
+        <th colspan="2">Статистика</th>
+        <tr>
+            <td>
+                <span>Гравець</span>
+                <img src="/image/X.png" width="12px">
+            </td>
+            <td id="statX">0</td>
+        </tr>
+        <tr>
+            <td>
+                <span>Гравець</span>
+                <img src="image/O.png" width="15px">
+            </td>
+            <td id="statO">0</td>
+        </tr>
+        <tr>
+            <td>
+                <span>Нічия</span>
+                <img src="image/draw.png" width="15px">
+            </td>
+            <td id="statD">0</td>
+        </tr>
+    </table>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
